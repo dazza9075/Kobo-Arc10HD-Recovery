@@ -2,3 +2,8 @@
 /cache ext4 /dev/block/platform/sdhci-tegra.3/by-name/CAC fstype2=ext3
 /data ext4 /dev/block/platform/sdhci-tegra.3/by-name/UDA fstype2=ext3
 /SDCARD vfat /dev/block/platform/sdhci-tegra.3/by-name/UDA fstype2=ext3
+/recovery emmc /dev/block/platform/sdhci-tegra.3/by-name/SOS
+/boot emmc /dev/block/platform/sdhci-tegra.3/by-name/LNX
+/misc emmc /dev/block/platform/sdhci-tegra.3/by-name/MSC
+/staging emmc /dev/block/platform/sdhci-tegra.3/by-name/USP
+/metadata emmc /dev/block/platform/sdhci-tegra.3/by-name/MDA
