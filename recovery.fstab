@@ -1,4 +1,5 @@
 /system ext4 /dev/block/platform/sdhci-tegra.3/by-name/APP fstype2=ext3
+/sdcard datamedia /dev/block/platform/mmcblk0p9
 /cache ext4 /dev/block/platform/sdhci-tegra.3/by-name/CAC fstype2=ext3
 /data ext4 /dev/block/platform/sdhci-tegra.3/by-name/UDA fstype2=ext3
 /sdcard datamedia /dev/block/platform/mmcblk0p9
