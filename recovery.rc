@@ -26,26 +26,26 @@ on init
 on boot
 
 
-    ifup lo
-    hostname localhost
-    domainname localdomain
+#    ifup lo
+#    hostname localhost
+#    domainname localdomain
 
 
-    class_start default
+#    class_start default
 
 
-service ueventd /sbin/ueventd
-    critical
+#service ueventd /sbin/ueventd
+#    critical
 
 
-service recovery /sbin/recovery
+#service recovery /sbin/recovery
 
 
-service adbd /sbin/adbd recovery
+#service adbd /sbin/adbd recovery
 
 
-on property:persist.service.adb.enable=1
-    start adbd
+#on property:persist.service.adb.enable=1
+#    start adbd
 
 
 #on property:persist.service.adb.enable=0
