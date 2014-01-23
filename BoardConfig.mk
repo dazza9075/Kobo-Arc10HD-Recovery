@@ -29,4 +29,5 @@ TARGET_PREBUILT_KERNEL := device/kobo/macallan/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
+#removed due to adb getting disabled and subsequent brickng of device!
 # TARGET_RECOVERY_INITRC := device/kobo/macallan/recovery.rc
