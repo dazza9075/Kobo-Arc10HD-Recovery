@@ -17,7 +17,7 @@ on init
     mkdir /emmc
     mount /tmp /tmp tmpfs
     
-    symlink /storage/emulated/0 /sdcard
+#    symlink /storage/emulated/0 /sdcard
 
     mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/APP /system wait ro remount
     mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/UDA /data wait noatime nosuid nodev
